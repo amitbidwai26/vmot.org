@@ -8,8 +8,8 @@ if(isset($_POST['submit'])){
     $message = $_POST['message'];
     $subject = "Form submission on website";
     $subject2 = "Copy of your form submission to website";
-    $messagetosend = "Name:". $first_name . "\n\nEmail : ". $email ."\n\nPhone Number: ".$phone." \n\nWrote the following:" . "\n\n" . $message . " \n\n Regards Team\nVOMT";
-    $messagetocopy = "Here is a copy of your message \n\nName:". $first_name . "\n\nEmail : " . $email . "\n\nPhone Number: " . $phone . " \n\nWrote the following:" . "\n\n" . $message . " \n\n Regards Team\nVOMT ";
+    $messagetosend = "Name:". $first_name . "\n\nEmail : ". $email ."\n\nPhone Number: ".$phone." \n\nWrote the following:" . "\n\n" . $message . " \n\nRegards Team\nVOMT";
+    $messagetocopy = "Here is a copy of your message \n\nName:". $first_name . "\n\nEmail : " . $email . "\n\nPhone Number: " . $phone . " \n\nWrote the following:" . "\n\n" . $message . "\n\nRegards Team\nVOMT ";
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
